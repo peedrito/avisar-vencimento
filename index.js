@@ -161,7 +161,7 @@ function enviarMensagemWhatsapp() {
 
   const mensagemCompleta = `${mensagemCabecalho}${mensagemVencidos}\n\n*Produtos Próximos a Vencer:*\n${mensagemProximosAVencer}`;
 
-  const linkWhatsapp = `https://wa.me/556499079658?text=${encodeURIComponent(
+  const linkWhatsapp = `https://wa.me/55seunumero?text=${encodeURIComponent(
     mensagemCompleta
   )}`;
   window.open(linkWhatsapp, "_blank");
