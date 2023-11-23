@@ -30,7 +30,7 @@ function solicitarDataVencimento() {
 
       if (vencimento < dataAtual) {
         throw new Error(
-          "Data de vencimento anterior à data atual. Por favor, insira uma data futura."
+          "Data de vencimento anterior à data atual. Por favor, insira uma data futura..."
         );
       }
 
